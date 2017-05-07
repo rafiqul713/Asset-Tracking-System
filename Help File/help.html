@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>SDS - Asset Tracking System</title>
+  <style media="screen">
+    a {
+      margin-top: 100px;
+      font-family: 'Trebuchest Ms', serif;
+      line height: 1.6
+    }
+
+    .container {
+      width: 90%;
+      margin: 0 auto;
+    }
+    /*toc index*/
+
+    .toc_index ol {
+      list-style-type: none;
+      counter-reset: item;
+      margin: 0;
+      padding: 0;
+    }
+
+    .toc_index li {
+      display: table;
+      counter-increment: item;
+    }
+
+    .toc_index li:before {
+      content: counters(item, ".") ". ";
+      display: table-cell;
+    }
+
+    .toc_index li li {
+      margin: 0;
+    }
+    /*contents*/
+
+    .contents ol {
+      list-style-type: none;
+      counter-reset: item;
+    }
+
+    .contents li {
+      display: block;
+      position: relative;
+    }
+
+    .contents li:before {
+      content: counters(item, ".")".";
+      counter-increment: item;
+      position: absolute;
+      margin-right: 100%;
+      right: 10px;
+      /* space between number and text */
+    }
+
+    .contents li li {
+      margin: 0;
+    }
+
+    .contents img {
+      max-width: 300px;
+      height: auto;
+    }
+    /**/
+
+    div.tabs {
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+    }
+
+    div.tabs p {
+      background: none;
+      color: #222;
+      display: inline-block;
+      padding: 10px 15px;
+      cursor: pointer;
+      margin: 0;
+    }
+
+    div.tabs p.current {
+      background: #ededed;
+      color: #222;
+    }
+
+    .tab-content {
+      display: none;
+      background: #ededed;
+      padding: 15px;
+    }
+
+    .tab-content.current {
+      display: inherit;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="cover">
+        <h2>Help File</h2>
+        <p>for </p>
+        <h3>Asset Tracking System</h3>
+      </div>
+      <hr>
+      <h3>Table of Contents</h3>
+      <nav class="toc_index">
+        <ol>
+          <!-- 1.Introduction -->
+          <li>
+            <a href="#Introduction">Introduction</a>
+          </li>
+
+          <!-- 2. Installation -->
+          <li>
+            <a href="#Installation">Installation</a>
+          </li>
+
+          <!-- User manual -->
+          <li>
+            <a href="#UserManual">User Manual Guide</a>
+          </li>
+        </ol>
+      </nav>
+    </header>
+    <hr>
+    <div class="contents">
+
+
+      <ol>
+        <li id="Introduction">
+          <strong>Introduction</strong>
+          <p>Asset Tracking Systems is comprised of web, smartphone and desktop platform service. This application provides tracking assets such as table, chair, computer, tools or other materials by the location of the asset & the person the asset assigned
+            to. And the applications crates history of all the activities done related to asset by a user. More specifically the system keeps records of usage, maintenance, lost, damaged history & the traceable position & person of assets. Using this system
+            at first users add the descriptions of an asset & can see the description of a particular asset and shows all the information’s and movements affecting this asset over time. This software's users are Admin & Managers of an organization/company
+            who will use this service to manage their assets. The application will be built on multiple platforms- Web, Android App, Desktop App. Overall this system provide a perfect solution for companies that need manage their assets smartly.</p>
+        </li>
+        <li id="Installation">
+          <strong>Installation for Desktop : </strong>
+          <p>
+1.	Open Users computer.<br />
+2.	Firstly users download our Asset Tracking System app.<br />
+3.	Make sure user’s computer meets the system requirements of the program user attempting to install.<br />
+4.	Within the MY Computer window, open the drive that contains the installation files.<br />
+5.	Within the drive that contains our files, locate either the executable setup or install file. Double clicking on this file starts the installation process.<br />
+After that user will be able to install the program.<br />
+</p>
+
+<strong>Installation for Android : </strong>
+<p>
+1.	Tap the Apps icon in the bottom-right of the home screen.<br />
+2.	Swipe left and right until user find the Play Store icon.<br />
+3.	Tap the magnifying glass in the top-right, type in the name of this app and tap the magnifying glass in the bottom right.<br />
+
+        </li>
+
+        <li>
+        <strong>User Manual Guide</strong>
+        <p>After installing the software for Web, Android, Ios and  Desktop platform service user can sign in, log out, Add asset, remove asset, Edit asset 
+		through using this system. If user forgets the password he can solve this problem to follow this user manual guide. To follow this user manual guide use
+		understand how to Sign in, Log out, Edit Asset, Add Asset, Remove Asset and what to do when he Forget password. User can also be informed about all company 
+		information and Asset history through follow this user manual guide.</p>
+        </li>
+        <div class="container">
+
+          <div class="tabs">
+            <p class="tab-link current" data-tab="tab-1">Tab One</p>
+            <p class="tab-link" data-tab="tab-2">Tab Two</p>
+            <p class="tab-link" data-tab="tab-3">Tab Three</p>
+            <p class="tab-link" data-tab="tab-4">Tab Four</p>
+          </div>
+
+          <div id="tab-1" class="platform description">
+             <p>3.1 <strong>Desktop</strong></p>
+		  <p>After installing the software in Desktop user can Sign in, Log out, Edit Asset, Remove Asset, Add Asset, Forget password and to keep all Company 
+		  information and Asset history. For very clear understanding about how user can do this things very easily some guide line is given below-</p>
+		  <ul>
+	
+		  <p><strong>3.1.1. Sign In </strong> </p>
+		  <p>1.	If  user  wants to sign in the page first user will go to the link of the website of navigation bar.<br />
+				2.	After that user has to click on the sign in option <br />
+				3.	Then user will get a new window. Then user has to give username at the place of username and password at the place of password.<br/ >
+				4.	At last click on the sign in option.<br/ > 
+				<p>
+		  
+	
+		
+		   <p><strong>3.1.2.Log out</strong> </p>
+		   <p>1. If you want to leave the log in page , then you click on the signup .<br />
+              2. Here you found log out then you will go to the log in page.<br />
+              3. If you found any problem then see the screen short.<br />
+				<p>
+	
+		
+		   
+		   <p><strong>3.1.3. Add Asset </strong> </p>
+		   <p> 1.If you want to add asset then you click on to the add asset.<br />
+                 2.Then you found add asset page.<br />
+                 3.What you want to add then add it & save it. <br />
+<p>
+		   
+		   <p><strong> 3.1.4.Forget Password </strong> </p>
+		   		<p>1.	If we forget password then click ”forgot password”.<br />
+					2.	Then we will find another page and “send a verification code” via “E-mail”.<br />
+					3.	Open email then copy verification code and paste in “type code”.<br />
+					4.	Now you continue for “log in”.<br />
+					</p>
+		  
+		   
+		   <p><strong>3.1.5. Remove Asset </strong> </p>
+		   <p>1.	If we want remove something then click “Delete Button”.<br />
+				2.	Then you select what you want to remove.<br />
+				3.	After selecting you click “yes” that will be removed automatically.<br />
+				<p>
+		   
+		   
+		   <p><strong>3.1.6. Edit Asset </strong> </p>
+		   <p>1.	Click the “Edit Button” on asset page.<br />
+				2.	Then find another page and what you want to edit , edit there.<br />
+				3.	After complete editing then click “Save Change”.<br />
+				4.	Then this page come back previous page automatically.<br />
+				<p>
+		  
+		   
+		   <p><strong>3.1.7. Company Information </strong> <p>
+		   <p>Company name : ABC IT LTD<br>
+			  Company email : abcit@gmail.com<br/>
+			  Company phone no : 017xx xxxxxx<br/>
+			  <p>
+		  
+		   
+		   <p><strong>3.1.8. Asset History </strong> <p>
+		   <p>Asset history is one of the most important things. Because it provides the complete and details information of all the changes to the asset 
+		   registered during the time. The different types of asset action for a large number of assets the asset history allows user to single map any 
+		   definite performance of work type to a definite field in the history.<p>
+		   
+		   
+		 
+          </div>
+          <div id="tab-2" class="platform description">
+            <p>3.2 <strong>ios </strong> </<p>
+<p>After install the software in ios user can Sign in, Log out, Edit Asset, Remove Asset, Add Asset, Forget password and to keep all Company
+		   information and Asset history. For very clear understand How user can do this things very easily some guide line is given below-<p>
+		   <ul>
+		  
+		   
+		  
+		   <p><strong>3.2.1. Sign in </strong> </p>
+<<<<<<< HEAD
+		   <p>1.If you want to leave the log in page , then you click on the signup .
+              2. Here you found log out then you will go to the log in page.
+              3. If you found any problem then see the screen short.
+>>>>>>> 7002a743cb2a848fe9421bc7fdd6ac8cdb23c6ea
+=======
+		   <p>1.	If  user  wants to sign in the page first user will go to the link of the website of navigation bar.<br />
+				2.	After that user has to click on the sign in option <br />
+				3.	Then user will get a new window. Then user has to give username at the place of username and password at the place of password .<br />
+				4.	At last click on the sign in option.<br />
+>>>>>>> c15b3ef135d76845590f934cc26049934e972f35
+<p>
+		   
+		   
+		   <p>3.2.2. Log out </strong> </p>
+<<<<<<< HEAD
+            <p>1.If you want to leave the log in page , then you click on the signup .
+              2. Here you found log out then you will go to the log in page.
+              3. If you found any problem then see the screen short.<p>
+           
+
+           
+           
+
+           <p><strong>3.2.3. Add Asset </strong> </p>
+           <p>   1.If you want to add asset then you click on to the add asset.<br />
+                 2.Then you found add asset page.<br />
+                 3.What you want to add then add it & save it. <br />
+>>>>>>> c15b3ef135d76845590f934cc26049934e972f35
+<p>
+          
+         <p><strong>3.2.4. Forget password </strong> </p>
+		 <p>1.	If anyone forgets the password then click the “Forgot password” button.<br />
+			2.	Then find another page heading “Having trouble signing in?” have three option like – “I don’t know my password”, “I don’t know my username”,
+			“I’m having other problem signing”. Choose the appropriate option.<br />
+			3.	When you choose any option it will ask your associated email address with 
+			Your account. Then write down your email address and click continue button.<br />
+			4.	Then we will get a verify code option “send a verify code” via email.<br />
+			5.	Go to the email address copy the verify code and paste it in the type code option.<br />
+			6.	Now you can continue for “log in”.
+			<br />
+					</p>
+		
+		 
+		 <p><strong>3.2.5. Remove Asset </strong> </p>
+		 <p>1.	If anyone wants to delete something click on the “Edit” button select that
+			You want to remove then click on to the “Delete” button.<br />
+			2.	When you click on the delete button you will get two option “Yes” or “No” if you choose the “yes” button the selecting things will removed and  if you choose the “No” button it will remain to the same thing.   <br />           
+<p>
+		
+		 
+		 <p><strong>3.2.6. Edit Asset </strong> </p>
+		 <p>1.	For editing assets click on the “Edit” button.<br /> 
+			2.	Then edit asset things that you want to edit.<br /> 
+			3.	When editing is complete then click the “Save changes “option.<br /> 
+
+				<p>
+		 </li>
+		
+		 
+		 <p><strong>3.2.7. Company Information </strong> </p>
+		   <p>Company name : ABC IT LTD<br>
+			  Company email : abcit@gmail.com<br/>
+			  Company phone no : 017xx xxxxxx<br/>
+			  <p>
+		   
+		  
+		   
+		   <p><strong>3.2.8. Asset History </strong> </p>
+		   <p>Asset history is one of the most important things. Because it provides the complete and details information of all the changes to the asset 
+		   registers during the time. The different types of asset action for a large number of assets the asset history allows user to single map any 
+		   definite performance of work type to a definite field in the history.<p>
+		   
+		   </ul>
+
+		 </div>
+	<div id="tab-3" class="platform description">
+		   
+		   <p>3.3 <strong> Web </strong> </p>
+		   
+		   <p>After install the software in Web user can Sign in, Log out, Edit Asset, Remove Asset, Add Asset, Forget password and to keep all Company
+		   information and Asset history. For very clear understand How user can do this things very easily some guide line is given below-<p>
+		  
+		   
+		   <p><strong>3.3.1. Sign in </strong> </p>
+		   <p>1.	If  user  wants to sign in the page first user will go to the link of the website of navigation bar.<br />
+				2.	After that user has to click on the sign in option <br />
+				3.	Than user will get a new window. Than user has to give username at the place of username and password at the place of password .<br />
+				4.	At last click on the sign in option.<br />
+				<img src="Images/sign_in.png">
+				<p>
+
+			 <p><strong>3.3.2. Sign Up </strong> </p>
+		   <p>1.  If user wants to sign up in a  web page first user will open an E-mail address .<br />
+				2.  Than user has to give your first name at the place of the first name and user has to give at the place of last name .<br />
+				3.  Then use has to give your E-mail address.<br />
+				4.  Than user has to give your E-mail address again at the place of the re-enter E-mail address.<br />
+				5.  User has to give your password at place of password.<br />
+				6 . User has to give your birthday and you have to choose month, date and year.<br />
+				7. Then he or she has to select the female and male option.<br />
+				8 .After that user has to click the sign up option and you can go to the home page.<br />
+				<img src="Images/sign_up.png"><br />
+			</p>
+		   
+		   <p><strong>3.3.3. Log out </strong> </p>
+		   <p>1.If you want to leave the log in page , then you click on the signup .<br />
+              2. Here you found log out than you will go to the log in page.<br />
+              3. If you found any problem then see the screen short.<br />
+		   </p>
+		   
+		   
+		   <p><strong>3.3.4. Add Asset </strong> </p>
+		   <p>1. User wants to add any asset first log in the web page.<br />
+				2. Than user has to go to the home page.<br />
+				3. User has to go to the add option and click the option and attach the asset .<br />
+				4. After that loading a full asset he or she will get submit option and click on it and at last it will be pasted and user can see that asset on the home page. <br />
+				5 . User also can tag others, can add location also.<br />
+				<img src="Images/add_asset.png"><br />
+			</p>
+		   
+		   
+		   <p><strong>3.3.5. Forget Password </strong> </p>
+		   <p>1 . When a user forgot the password to his account and can't access to the system at that time they can use "forgot password" option.<br />
+              2 . After user will tried that there is a button named “Send verification link”. Click on it.<br />
+              3 . Check user’s email address which used for tis account. It will give verification code.<br />
+              4 . Copy the verification code and paste it the ‘type verification link’ box. Then click on the submit button.<br />
+              Later user will be able to find it.
+<p>
+		   
+		   
+		   <p><strong>3.3.6. Remove Asset </strong> </p>
+		   <p>1.	Click on the “Delete” button below the asset you want to remove.<br />
+				2.	A text box will appear asking “Are you sure you want to delete this asset?”<br />
+				3.	Click “Yes” below the message.<br />
+				4.	Then you will be automatically backed to the previous page.<br />
+				You will be able to delete your asset in this way.
+				<br />
+<p>
+		
+		   
+		   <p><strong>3.3.7. Edit Asset </strong> </p>
+		   <p>1.	Click the “Edit Button” on asset page.<br />
+				2.	Then find another page and what you want to edit , edit there.<br />
+				3.	After complete editing then click “Save Change”.<br />
+				4.	Then this page come back previous page automatically.<br />
+				<p>
+		   
+		 
+		 <p><strong>3.3.8. Company Information </strong> <p>
+		   <p>Company name : ABC IT LTD<br>
+			  Company email : abcit@gmail.com<br/>
+			  Company phone no : 017xx xxxxxx<br/>
+			  <p>
+		  
+		   
+		   <p><strong>3.3.9. Asset History </strong> <p>
+		   <p>Asset history is one of the most important things. Because it provides the complete and details information of all the changes to the asset
+		   registers during the time. The different types of asset action for a large number of assets the asset history allows user to single map any
+		   definite performance of work type to a definite field in the history.<p>
+		 
+		   <ul>
+
+          </div>
+          
+            
+          </div>
+          <div id="tab-4" class="platform description">
+            <p>3.4 <strong>Android</strong></p>
+		  <p>After install the software in Android user can Sign in, Log out, Edit Asset, Remove Asset, Add Asset, Forget password and to keep all 
+		  Company information and Asset history. For very clear understand How user can do this things very easily some guide line is given below-</p>
+		  <ul>
+		  
+		  <p><strong>3.4.1. Sign in </strong> </p>
+		  <p>1.	If a user wants to sign up, at first he/she needs to open an E-mail address.<br />
+			2.	Then user has to provide information at specific options.<br />
+			3.	Give your company name at the place of Company name.<br />
+			4.	Your verified email address at the place of Email.<br />
+			5.	Then you have to give your password.<br />
+			6.	At last click on the "Create Account" button.<br />
+			7.	If you already have an account you don’t need to do all this. Click on the “Already a member? Login” option.<br />
+			<p>
+		  
+		   <p><strong>3.4.2. LogIn </strong> </p>
+		   <p>1. First user has to login, to use the system.<br />
+				2. Go to the login option, and click.<br />
+				3. It will give you a new page namedLogin.<br />
+				4. Then you have to give your email at the place of Email and password at the place of Password.<br />
+				5. Now you can click on the login button, to do whatever you want to do with the system.<br />
+				6. If you don’t have any account yet, click on the No account yet? Create one option.<br />
+				</p>
+		  
+		   
+		   <p><strong>3.4.3. Add Asset </strong> </p>
+		   <p>1.	To add an asset, you have to go to the add asset option.<br />
+				2.	Now provide information about the asset.<br />
+				3.	At first give the tag of the asset.<br />
+				4.	Then give the type of the asset, at the place of type.<br />
+				5.	Then give the information about the assigned of the asset.<br />
+				6.	Now give the location.<br />
+				7.	Now clicking the submit button you can finally add your asset.<br />
+			</p>
+		   
+		   
+		   <p><strong> 3.4.4.Forget Password </strong> </p>
+		   <p>1.	If you forget the password, then click on “forgot password?”<br />
+				2.	Then another page will appear. Click on “Send verification link”.<br />
+				3.	Check your email (which you have used for username). You will find your verification link there.<br />
+				4.	Copy the verification link and paste it in the “Type verification link” box. Then click on the “Submit” button.<br />
+				After that you will be able to log in.
+				<br />
+					</p>
+		 
+		   
+		   <p><strong>3.4.5. Remove Asset </strong> </p>
+		   <p>1.	Click on the “Delete” button below the asset you want to remove.<br />
+				2.	A text box will appear asking “Are you sure you want to delete this asset?”<br />
+				3.	Click “Yes” below the message.<br />
+				4.	Then you will be automatically backed to the previous page.<br />
+				You will be able to delete your asset in this way.
+				<br />
+				<p>
+		   
+		   
+		   <p><strong>3.4.6. Edit Asset </strong> </p>
+		   <p>1.	Click on the “Edit” button below the asset you want to edit.<br />
+				2.	Write the changes you want to make.<br />
+				3.	Click on “Save change”.<br />
+				4.	Then you will be automatically backed to the previous page.<br />
+				You will be able to edit the asset in this way.
+				<br />
+				<p>
+		
+		   
+		   <p><strong>3.4.7. Company Information </strong> <p>
+		   <p>Company name : ABC IT LTD<br>
+			  Company email : abcit@gmail.com<br/>
+			  Company phone no : 017xx xxxxxx<br/>
+			  <p>
+		 
+		   
+		   <p><strong>3.4.8. Asset History </strong> <p>
+		   <p>Asset history is one of the most important things. Because it provides the complete and details information of all the changes to the 
+		   asset registers during the time. The different types of asset action for a large number of assets the asset history allows user to single map 
+		   any definite performance of work type to a definite field in the history.<p>
+		   
+		   <ul>
+
+		   </div>
+	
+		   
+		
+          </div>
+
+        </div>
+        <!-- container -->
+
+        </li>
+      </ol>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+
+        $('div.tabs p').click(function() {
+          var tab_id = $(this).attr('data-tab');
+
+          $('div.tabs p').removeClass('current');
+          $('.tab-content').removeClass('current');
+
+          $(this).addClass('current');
+          $("#" + tab_id).addClass('current');
+        })
+
+      })
+    </script>
+</body>
+
+</html>
